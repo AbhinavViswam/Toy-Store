@@ -1,0 +1,187 @@
+/* marquee */
+body{
+    overflow: hidden;
+}
+#toppass{
+    display:inline-block;
+    border:1px solid yellow;
+    background-color: blueviolet;
+    color:white;
+    margin-top: -20px;
+    margin-bottom: 50px;
+    padding:0px 5px;
+}
+
+.headin{
+    border:2px solid black;
+    display: block;
+    margin-left:12px;
+}
+/* .. */
+.totnav{
+    background-color: rgb(227, 197, 254);
+}
+.nav ul{
+    border:2px solid blueviolet;
+    background-color: blueviolet;
+    list-style: none;
+    width:55%;
+    height:40px;
+    padding:20px 20px;
+    margin:0px 303px;
+    border-radius:15px;
+}
+.nav ul li{
+    display: inline-block;
+    margin:10px 0px;
+}
+.nav ul li a{
+    font-family: 'BankGothic Lt BT';
+    text-decoration: none;
+    /* border:2px solid black; */
+    padding:5px 5px;
+    margin:12px 64px;
+    font-size: 15px;
+    color:white;
+}
+.left{
+    display:inline;
+    float:left;
+    /* border:2px solid black; */
+    margin:0px 8px;
+    padding:2px 2px;
+}
+.left h1{
+    color:black;
+    font-family:'BankGothic Lt BT';
+    float:left;
+}
+.log img{
+    display:block;
+    float:left;
+    width:100px;
+    height:83px;
+    padding:2px 2px;
+}
+.rightlog h3 a{
+    border:2px solid blueviolet;
+    text-decoration: none;
+    float:right; 
+    padding:5px 25px;
+    margin:-55px 194px; 
+    border-radius:15px;
+    font-family: 'bernhardFashion BT';
+    font-size:17px;
+    color:black;
+}
+.rightsig h3 a{
+    border:2px solid blueviolet;
+    text-decoration: none;
+    float:right; 
+    padding:5px 25px;
+    margin:-55px 35px; 
+    border-radius:15px;
+    font-family: 'bernhardFashion BT';
+    font-size:17px;
+    color:black;
+}
+.search{
+    display: inline;
+    float:right;
+}
+.search form{
+    margin:-80px 36px;
+}
+.search form input{
+    padding:8px 40px;
+    background-color: rgb(227, 197, 254);
+    margin-top: -30px;
+    border:2px solid blueviolet;
+    border-radius:15px;
+    font-family: 'bernhardFashion BT';
+    width:204px;
+}
+.search form button{
+    padding:7px 12px;
+    border:2px solid blueviolet;
+    border-radius:10px;
+    background-color: rgb(227, 197, 254);
+    font-family: 'bernhardFashion BT';
+}
+ 
+/* hover */
+
+.nav ul li a:hover{
+    color:orange;
+}
+.search form input:hover{
+    width:230px;
+    background-color: white;
+}
+.rightlog h3 a:hover{
+    padding:5px 30px;
+    background-color:blueviolet;
+    color:white;
+}
+.rightsig h3 a:hover{
+    padding:5px 30px;
+    background-color: blueviolet;
+    color:white;
+}
+.search form button:hover{
+    background-color: blueviolet;
+    color:white;
+}
+
+/* active*/
+
+.nav ul li a:active{
+    color:orange;
+}
+
+/* items */
+
+.item{
+    border:2px solid blueviolet;
+    display: inline-block;
+    background-color:  rgb(227, 197, 254);
+    font-size: 16px;
+    color:blueviolet;
+    text-align: center;
+    height: 437px;
+    border-radius: 17px;
+}
+.item img{
+    border-radius: 17px;
+    padding:3px 3px;
+    height:300px;
+    width:300px;
+}
+.item h2{
+    margin:2px 2px;
+    font-family: "BankGothic Lt BT";
+    font-weight: bolder;
+    text-decoration:underline;
+    color:black;
+}
+.item p{
+    font-family:"bernhardFashion BT";
+    font-weight: bolder;
+    color:black;
+}
+.buy{
+    text-decoration: none;
+    border: 2px solid blueviolet;
+    border-radius:16px;
+    padding:8px 12px;
+    color:white;
+    background-color: blueviolet;
+}
+.buy:hover{
+    background-color: yellow;
+    color:black;
+}
+.container2{
+    position: relative;
+    left: 120px;
+}
